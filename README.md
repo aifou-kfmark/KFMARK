@@ -1,5 +1,3 @@
-# KFMark Github Readme
-
 # KFMark made by FView
 
 Please note that this app is in early stages of development. Although we plan to release KFMark as a free app on Google Play, this is still very much a commercial project, thus no plan for open-sourcing is disclosed as of now. FView Technology owns the rights to this app and any unlicensed modification, distribution or reverse-engineering is strictly prohibited.
