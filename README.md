@@ -1,4 +1,4 @@
-# KFMark made by FView
+# KFMark by FView
 
 Please note that this app is in early stages of development. Although we plan to release KFMark as a free app on Google Play, this is still very much a commercial project, thus no plan for open-sourcing is disclosed as of now. FView Technology owns the rights to this app and any unlicensed modification, distribution or reverse-engineering is strictly prohibited.
 
@@ -29,8 +29,8 @@ KFMark is compatible with Android 5 and up.
 
 ## Release Note
 
-2018-10-30
-Version 1.0
+2018-10-25
+Version 0.9
 Initial version.
 
 ## Privacy
