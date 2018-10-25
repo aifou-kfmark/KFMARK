@@ -25,7 +25,7 @@ You can optionally record a gaming session and get a complete history of FPS, CP
 
 All of the benchmarking history is stored locally on your phone for you to review.
 
-KFMark is compatible with Android 6 and up.
+KFMark is compatible with Android 5 and up.
 
 ## Release Note
 
