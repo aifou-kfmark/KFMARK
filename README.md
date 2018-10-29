@@ -8,20 +8,20 @@ Please note that this app is in its early stages of development. Although we pla
 
 Please download BOTH of the following files on the [Release page](https://github.com/Septillion/KFMARK/releases).
 
-- KFMARK APK
+- KFMARK Beta v0.9.1 APK
 - KFMARK PC Assistant
 
 After installing the base APK on your phone, you have to enable `Developer Mode` (please search online for how to do that on your model) and enable `USB Debugging`. Then connect your phone to a Windows PC and use KFMARK PC Assistant to activate the background `daemon` used to measure FPS and other factors. Every time you restart your device, you have to run KFMARK PC Assistant again. 
 
-For Mac users, please download only the KFMARK APK and `KFMARK daemon` (with `adb` bundled). Unzip this file and manually run the following commands using Terminal in the unzipped directory:
+For Mac and Linux users, please download only the KFMARK Beta APK and `daemon`. Then download `adb` from [Android Developers Website](https://developer.android.com/studio/releases/platform-tools). Enable `Developer Mode` on your device. Put `daemon` in the same folder as the `adb`, and manually run the following commands using Terminal in the unzipped directory:
 
-	./adb push ./daemon/daemon /data/local/tmp
+	./adb push daemon /data/local/tmp
 	./adb shell chmod 777 /data/local/tmp/daemon
 	./adb shell "./data/local/tmp/daemon &"
 
 ## Features
 
-KFMARK V1.0 will allow you to profile and benchmark 3D games running on Android, and show current FPS on a floating window, giving you a direct indication of how smoothly the game is running on your device.
+KFMARK V0.9 will allow you to profile and benchmark 3D games running on Android, and show current FPS on a floating window, giving you a direct indication of how smoothly the game is running on your device.
 
 You can optionally record a gaming session and get a complete history of FPS, CPU Frequency and Battery Drain.
 
@@ -34,6 +34,11 @@ KFMARK is compatible with Android 5 and up.
 2018-10-25
 Version 0.9
 Initial version.
+
+2018-10-29
+Version v0.9.1:
+- Added the ability to zoom-in on the FPS, CPU and Battery graph.
+- Added the ability to drag the in-game floating window across the upper edge of the screen.
 
 ## Privacy
 
