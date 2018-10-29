@@ -49,7 +49,7 @@ This is due to the restrictions of `adb` which we use to install KFMARK backgrou
 
 ## Bug Report
 
-Please go to the Issue page to submit a bug report. Please first search for your bug and see if anyone has already submitted the same bug. 
+Please go to the [Issues page](https://github.com/Septillion/KFMARK/issues) to submit a bug report. Please first search for your bug and see if anyone has already submitted the same bug. 
 
 When submitting a bug, please follow this pattern:
 
