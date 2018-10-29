@@ -29,17 +29,6 @@ All of the benchmarking history is stored locally on your phone for you to revie
 
 KFMARK is compatible with Android 5 and up.
 
-## Release Note
-
-2018-10-25
-Version 0.9
-Initial version.
-
-2018-10-29
-Version v0.9.1:
-- Added the ability to zoom-in on the FPS, CPU and Battery graph.
-- Added the ability to drag the in-game floating window across the upper edge of the screen.
-
 ## Privacy
 
 KFMARK runs locally on your devices and requires only storage permissions. All of your benchmarking data is stored locally on your phone and is not uploaded to any servers. On start up, KFMARK will acquire the Model Number of your device, and compare it against our WeChat Mini App database to retrieve hardware information (SoC Model, GPU Model and Display Resolution). We do not log this request; this data is not stored and cannot be used to identify you.
