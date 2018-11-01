@@ -11,9 +11,9 @@
 - KFMARK Beta v0.9.1 APK
 - KFMARK PC Assistant
 
-在手机上安装 APK 之后，你需要在设置中启用`开发者模式`，并开启`USB调试`（请自行搜索对应机型的启用方法）。之后打开 KFMARK PC Assistant，连接手机以激活快否的后台`daemon`，之后可以断开与电脑的连接。每次重启手机之后，都需要重新激活。
+在手机上安装 APK 之后，你需要在设置中启用 `开发者模式`，并开启 `USB调试`（请自行搜索对应机型的启用方法）。之后打开 KFMARK PC Assistant，连接手机以激活快否的后台`daemon`，之后可以断开与电脑的连接。每次重启手机之后，都需要重新激活。
 
-对于 Mac 和 Linux 用户，请下载`KFMARK Beta APK`和`daemon`文件，随后从[Android 开发者官网](https://developer.android.com/studio/releases/platform-tools)下载`adb`，并将`daemon`放到`adb`所在目录。在手机上安装 APK 之后，你需要在设置中启用`开发者模式`，并开启`USB调试`（请自行搜索对应机型的启用方法）。之后在电脑的`终端`上导航到`adb`所在目录，运行以下命令：
+对于 Mac 和 Linux 用户，请下载 `KFMARK Beta APK` 和 `daemon` 文件，随后从 [Android 开发者官网](https://developer.android.com/studio/releases/platform-tools) 下载 `adb`，并将 `daemon` 放到 `adb` 所在目录。在手机上安装 APK 之后，你需要在设置中启用 `开发者模式`，并开启 `USB调试`（请自行搜索对应机型的启用方法）。之后在电脑的 `终端` 上导航到 `adb` 所在目录，运行以下命令：
 
 	./adb push daemon /data/local/tmp
 	./adb shell chmod 777 /data/local/tmp/daemon
@@ -33,7 +33,7 @@
 
 ### 手机断开链接之后，立刻回到未激活的状态
 
-在某些厂商（如 OPPO）的设备上，一旦手机断开与 PC 的连接，将会立刻终止所有后台调试程序。快否依赖后台`daemon`来运行，因此在这些手机上，请在测试全程保持与 PC 的连接。已知机型：
+在某些厂商（如 OPPO）的设备上，一旦手机断开与 PC 的连接，将会立刻终止所有后台调试程序。快否依赖后台 `daemon` 来运行，因此在这些手机上，请在测试全程保持与 PC 的连接。已知机型：
 
 - OPPO Find X
 - 华为 Mate 20
@@ -49,7 +49,7 @@
 
 ## 错误报告
 
-请访问[Issues page](https://github.com/Septillion/KFMARK/issues)提交错误报告。提交前请务必搜索是否有人提交过重复 Bug。
+请访问 [Issues page](https://github.com/Septillion/KFMARK/issues) 提交错误报告。提交前请务必搜索是否有人提交过重复 Bug。
 
 提交 Bug 时，请遵循如下格式：
 
