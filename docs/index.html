@@ -21,14 +21,14 @@
 		p { color: #fff; font-family: sans-serif; font-size: 20px; line-height: 1.2em; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
 		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		footer {position: fixed; left: 0; bottom: 0; width: 100%; color: rgba(255,255,255,0.3); text-align: center; font-size: 12px; font-family: sans-serif; padding-bottom: 5px;} 
+		footer {position: fixed; left: 0; bottom: 0; width: 100%; color: rgba(255,255,255,0.3); text-align: center; font-size: 12px; font-family: sans-serif; padding-bottom: max(5px, env(safe-area-inset-bottom));} 
 		#logo { background: url(http://img002.fview.cn/Public/upload/media/goods/5bda5dbcb78fb6.47546281.png) no-repeat; background-size: contain; height: 30px; margin: 50px 50px; }
 		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
 		#about-this-app {padding-top: 120px;}
 		.description{width: 1000px; position: absolute; margin: 0 auto;left: 50%; top:70%; margin-left: -500px; padding-bottom: 20px; text-align: center;}
 		.download-btn{width: 274px; border-radius: 8px; position: absolute; margin: 0 auto; left: 50%; margin-left: -137px;}
 		@media (max-width: 1090px) {
-			#logo { background: url(http://img002.fview.cn/Public/upload/media/goods/5bda5dbd05eda0.21809888.png) no-repeat; background-size: contain; height: 24px; margin: 20px 20px;  }
+			#logo { background: url(http://img002.fview.cn/Public/upload/media/goods/5bda5dbd05eda0.21809888.png) no-repeat; background-size: contain; height: 24px; margin: 20px 20px; padding-left: env(safe-area-inset-left);}
 			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
 			#about-this-app {padding-top: 80px; font-size: 18px;}
 			.description{width: 70%; position: absolute; margin: 0 auto;left: 50%; top:70%; margin-left: -35%; padding-bottom: 20px; text-align: center;}
