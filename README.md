@@ -21,7 +21,7 @@ For Mac and Linux users, please download only the KFMARK Beta APK and `daemon`. 
 
 ## Features
 
-KFMARK V0.9 will allow you to profile and benchmark 3D games running on Android, and show current FPS on a floating window, giving you a direct indication of how smoothly the game is running on your device.
+KFMARK will allow you to profile and benchmark 3D games running on Android, and show current FPS on a floating window, giving you a direct indication of how smoothly the game is running on your device.
 
 You can optionally record a gaming session and get a complete history of FPS, CPU Frequency and Battery Drain.
 
