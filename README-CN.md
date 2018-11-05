@@ -8,7 +8,7 @@
 
 请在 [Release page](https://github.com/Septillion/KFMARK/releases) 下载以下两个文件：
 
-- KFMARK Beta v0.9.1 APK
+- KFMARK Beta Android APK
 - KFMARK PC Assistant
 
 在手机上安装 APK 之后，你需要在设置中启用 `开发者模式`，并开启 `USB调试`（请自行搜索对应机型的启用方法）。之后打开 KFMARK PC Assistant，连接手机以激活快否的后台`daemon`，之后可以断开与电脑的连接。每次重启手机之后，都需要重新激活。
