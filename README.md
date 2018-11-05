@@ -8,7 +8,7 @@ Please note that this app is in its early stages of development. Although we pla
 
 Please download BOTH of the following files on the [Release page](https://github.com/Septillion/KFMARK/releases).
 
-- KFMARK Beta v0.9.1 APK
+- KFMARK Beta Android APK
 - KFMARK PC Assistant
 
 After installing the base APK on your phone, you have to enable `Developer Mode` (please search online for how to do that on your model) and enable `USB Debugging`. Then connect your phone to a Windows PC and use KFMARK PC Assistant to activate the background `daemon` used to measure FPS and other factors. Every time you restart your device, you have to run KFMARK PC Assistant again. 
