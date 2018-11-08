@@ -1,6 +1,6 @@
 ![KFMARK logo](https://user-images.githubusercontent.com/5908006/47543804-847b9680-d916-11e8-9861-c0c7b2d39c56.png)
 
-![中文说明](https://github.com/Septillion/KFMARK/blob/master/README-CN.md)
+[中文说明](https://github.com/Septillion/KFMARK/blob/master/README-CN.md)
 
 Please note that this app is in its early stages of development. Although we plan to release KFMARK as a free app on Google Play, KFMARK is still a commercial project, thus there is currently no plan to open-source it. FView Technology owns the rights to this app and any unlicensed modification, distribution or reverse-engineering is strictly prohibited.
 
