@@ -33,6 +33,8 @@ KFMARK is compatible with Android 5 and up.
 
 KFMARK runs locally on your devices and requires only storage permissions. All of your benchmarking data is stored locally on your phone and is not uploaded to any servers. On start up, KFMARK will acquire the Model Number of your device, and compare it against our WeChat Mini App database to retrieve hardware information (SoC Model, GPU Model and Display Resolution). We do not log this request; this data is not stored and cannot be used to identify you.
 
+On crash (force close), KFMARK would send the last couple of lines of Crash Report to our server to identify the cause of crash. This report does not contain any personal information and cannot be used to identify you.
+
 ## Known Issues
 
 ### App appears unactivated after disconnecting from the PC
